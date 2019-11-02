@@ -1,1 +1,1 @@
-FROM vlang:latest
+FROM vlanguage/vlang
