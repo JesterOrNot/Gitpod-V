@@ -8,6 +8,6 @@ RUN sudo mkdir -p /home/gitpod/.v \
     && sudo unzip v_linux.zip -d v_linux \
     && cd v_linux \
     && sudo mkdir bin \
-    && mv v bin \
+    && sudo mv v bin \
     && cd bin \
     && echo "export PATH=$PATH:$PWD" >>~/.bashrc
