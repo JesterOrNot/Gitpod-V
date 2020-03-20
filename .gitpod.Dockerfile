@@ -5,12 +5,9 @@ USER gitpod
 WORKDIR /opt/vlang
 
 RUN sudo wget -c https://github.com/vlang/v/releases/download/0.1.24/v_linux.zip \
-    && sudo unzip v_linux.zip -d v_linux \
-    && cd v_linux \
-    && sudo mkdir bin \
-    && sudo mv v bin
+    && sudo unzip v_linux.zip
 
-ENV PATH=/opt/vlang/v_linux/bin:$PATH
+ENV PATH=/opt/vlang:$PATH
 
 # # Install V
 # RUN sudo git clone https://github.com/vlang/v . \
