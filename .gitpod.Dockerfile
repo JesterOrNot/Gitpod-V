@@ -10,7 +10,7 @@ RUN sudo wget -c https://github.com/vlang/v/releases/download/0.1.24/v_linux.zip
     && sudo mkdir bin \
     && sudo mv v bin
 
-ENV PATH=/opt/v_linux/bin:$PATH
+ENV PATH=/opt/vlang/v_linux/bin:$PATH
 
 # # Install V
 # RUN sudo git clone https://github.com/vlang/v . \
