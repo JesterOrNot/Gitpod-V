@@ -2,7 +2,7 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-WORKDIR /opt
+WORKDIR /opt/vlang
 
 # Install V
 RUN git clone https://github.com/vlang/v . \
