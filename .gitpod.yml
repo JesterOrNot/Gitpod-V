@@ -3,3 +3,7 @@ image:
 vscode:
   extensions:
     - 0x9ef.vscode-vlang@0.1.1:BF/QkMtQgWfO60nFPisy6w==
+tasks:
+  - command: |
+      v hello.v
+      ./hello
